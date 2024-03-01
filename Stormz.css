@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Sakana&display=swap');
+
+/* Votre code CSS ici */
+
+body {
+    font-family: 'Sakana', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.banner {
+    background-color: #9c27b0;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+section {
+    padding: 50px 0;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Ombre visible */
+    border-radius: 10px; /* Coins arrondis */
+    margin-bottom: 20px;
+}
+
+#about,
+#timeline,
+#staff,
+#apply {
+    padding: 20px;
+}
+
+#about h2,
+#timeline h2,
+#staff h2,
+#apply h2 {
+    color: #9c27b0;
+}
+
+.staff-member {
+    display: flex;
+    align-items: center;
+}
+
+.staff-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.staff-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.staff-info h3 {
+    color: #9c27b0;
+}
+.timeline-wrapper {
+    border-radius: 50%;
+}
